@@ -1,11 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%--
-  Created by IntelliJ IDEA.
-  User: Le
-  Date: 1/2/2016
-  Time: 5:14 PM
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <html>
 <head>
@@ -17,7 +11,7 @@
 <meta name="author" content="">
 <link rel="icon" href="../../favicon.ico">
 
-<title>Bakery Store</title>
+<title>Online Music Store</title>
 
 <!-- Angular JS -->
 <script
@@ -65,8 +59,7 @@
 								class="icon-bar"></span> <span class="icon-bar"></span> <span
 								class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="<c:url value="/" /> ">Le's Music
-							Store</a>
+						<a class="navbar-brand" href="<c:url value="/" /> ">Online Music Store</a>
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
